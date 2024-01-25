@@ -1,0 +1,117 @@
+* 
+{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+:root 
+{
+    --ashgray : #CAD2C5 ;
+    --hookersgreen : #52796F ;
+    --charcoal : #2F3E46 ;
+    --gunmetal : #16262E ;
+}
+  
+body 
+{
+    background-color : var(--hookersgreen) ;
+    text-align : center ;
+    font-size : 4.5vmin ;
+}
+
+h1 
+{
+    color : var(--gunmetal) ;
+    letter-spacing : 1rem ;
+}
+  
+.container 
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.game 
+{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+  
+.box 
+{
+    height : 18vmin ;
+    width : 18vmin ;
+    border-radius : 1rem ;
+    border : none ;
+    box-shadow : 0 0 1rem rgba(0, 0, 0, 0.3) ;
+    font-size : 8vmin ;
+    color : var(--charcoal) ;
+    background-color : var(--ashgray) ;
+}
+  
+#reset-btn 
+{
+    padding : 1rem ;
+    font-size : 1.25rem ;
+    background-color : var(--ashgray) ;
+    color : var(--gunmetal) ;
+    border-radius : 1rem ;
+    border : none ;
+    transition : .2s ease ;
+    text-align : center ;
+}
+
+#reset-btn:hover 
+{
+    transition : .2s ease ;
+    color : #fff ;
+    background-color : var(--gunmetal) ;
+    letter-spacing : .5rem ;
+}
+  
+#new-btn 
+{
+    padding : 1rem ;
+    font-size : 1.25rem ;
+    background-color : var(--ashgray) ;
+    color : var(--gunmetal) ;
+    border-radius : 1rem ;
+    border : none ;
+    transition : .2s ease ;
+}
+
+#new-btn:hover 
+{
+    transition : .2s ease ;
+    color : #fff ;
+    background-color : var(--gunmetal) ;
+    letter-spacing : .5rem ;
+}
+  
+#msg 
+{
+    color : var(--ashgray) ;
+    font-size : 5vmin ;
+}
+  
+.msg-container 
+{
+    height : 100vmin ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    flex-direction : column ;
+    gap : 4rem ;
+}
+  
+.hide 
+{
+    display : none ;
+}
